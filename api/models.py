@@ -9,4 +9,4 @@ class ElectricityDetail(models.Model):
     time_stamp=models.TimeField(auto_now_add=True)
 
     def __str__(self):
-        return str(self.power, self.date_stamp, self.time_stamp)
+        return str(self.power)+" "+ str(self.date_stamp)+" "+str(self.time_stamp)
