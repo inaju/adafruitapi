@@ -1,1 +1,1 @@
-web: gunicorn adafruitapi.wsgi --log-file -
+web:gunicorn adafruitapi.wsgi --log-file -
